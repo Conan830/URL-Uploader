@@ -27,7 +27,7 @@ async def help_user(bot, update):
     # logger.info(update)
     await AddUser(bot, update)
     FSub = await ForceSub(bot, update)
-    if FSub == 400: -1001861014054
+    if FSub == 400:-1001861014054
         return
     await bot.send_message(
         chat_id=update.chat.id,
@@ -54,7 +54,7 @@ async def start(bot, update):
     # logger.info(update)
     await AddUser(bot, update)
     FSub = await ForceSub(bot, update)
-    if FSub == 400:
+    if FSub == 400:-1001861014054
         return
     await bot.send_message(
         chat_id=update.chat.id,
