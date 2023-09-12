@@ -16,7 +16,7 @@
   ],
   "success_url": "https://telegram.dog/uploadzkbot",
   "website": "https://github.com/ZauteKm/URL-Uploader",
-  "repository": "https://github.com/ZauteKm/URL-Uploader",
+  "repository": "https://github.com/Conan830/URL-Uploader",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -63,7 +63,7 @@
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "free"
+      "size": "eco"
     }
   }
 }
